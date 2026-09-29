@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>LocalScout Privacy Policy</title>
+  <meta name="description" content="Privacy policy for the LocalScout mobile app.">
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.6; color: #20242b; background: #f5f7f8; }
+    body { margin: 0; }
+    main { max-width: 850px; margin: 2rem auto; padding: 2rem clamp(1rem, 5vw, 3rem); background: #fff; border: 1px solid #dce2e7; border-radius: 14px; box-shadow: 0 6px 24px #15202b12; }
+    h1, h2 { color: #172b3a; line-height: 1.25; }
+    h1 { margin-top: 0; }
+    h2 { margin-top: 2rem; }
+    a { color: #075ca8; overflow-wrap: anywhere; }
+    li { margin: .45rem 0; }
+    .updated { color: #586571; }
+    footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #dce2e7; color: #586571; font-size: .95rem; }
+    @media (max-width: 600px) { main { margin: 0; min-height: 100vh; border: 0; border-radius: 0; box-shadow: none; padding: 1.25rem; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>LocalScout Privacy Policy</h1>
+  <p class="updated"><strong>Last updated:</strong> September 29, 2026</p>
+  <p>LocalScout helps you save and find nearby places and manage shopping lists. This policy describes the current app version. The publisher confirms that LocalScout currently has no developer-operated server, app-account creation, ads, in-app purchases or subscriptions, analytics, or crash-reporting service. If those features are added, this policy and the Google Play Data safety answers will be updated before they are introduced.</p>
+
+  <h2>Who operates LocalScout</h2>
+  <p>LocalScout is operated and published on Google Play by <strong>IT.WrX inc.</strong> For privacy questions, contact <a href="mailto:it.wrx.inc@proton.me">it.wrx.inc@proton.me</a>.</p>
+
+  <h2>Information you choose to save</h2>
+  <p>You may save place and business names, phone numbers, categories, tags, notes, ratings, opening hours, addresses, map coordinates, place photos, and shopping-list items. This information is stored in LocalScout's private storage on your device. LocalScout has no app account or developer-operated server for synchronizing this information.</p>
+  <p>The app stores preferences and app data on your device. Your optional Google AI API key is stored using the device's secure credential storage. Place photos are kept in the app's private files area.</p>
+
+  <h2>Device permissions and location</h2>
+  <ul>
+    <li><strong>Camera and photos:</strong> Used when you choose to take or select a place photo. Selected photos are kept on your device. If you use photo extraction, the selected image is sent to Google AI as described below.</li>
+    <li><strong>Location:</strong> Foreground location can be used to set a saved place's map position and show your position on the map. If you turn on Explorer Mode, LocalScout uses background location while that feature is enabled to compare your position with saved places and shopping-list items and show a nearby-place notification. These comparisons and notifications are generated on your device; LocalScout does not send a location history to a LocalScout server.</li>
+    <li><strong>Microphone and speech recognition:</strong> Used when you start voice input. Audio is handled by the speech-recognition service supplied or selected by your device. That service may process audio on its own servers depending on your device and settings. LocalScout receives the resulting transcript; it does not save a recording. If AI item extraction is used, the transcript is sent to Google AI.</li>
+    <li><strong>Notifications:</strong> Used for nearby-place alerts and shopping-list reminders that you enable.</li>
+  </ul>
+  <p>You can deny permissions or turn off Explorer Mode. Some related features will then be unavailable. Location permission can be changed in Android settings.</p>
+
+  <h2>Google AI features</h2>
+  <p>If you choose AI photo extraction, LocalScout sends the selected image to Google's generative AI service to identify visible business names, phone numbers, categories, or tags. If you use AI voice-item extraction, LocalScout sends the recognized transcript to Google AI to identify shopping items. LocalScout may also send category, tag, service, or shopping-item text to Google AI when you request or use automatic translation.</p>
+  <p>These requests go from the app to Google's Gemini API using the API key you enter in LocalScout. The key is stored in the device's secure credential storage. Google's handling depends on the API project's service tier and settings: Google's current Gemini API guidance says content from unpaid services may be used to improve Google products, while paid services are not used for product improvement but may log prompts and responses for limited abuse monitoring. Google controls those records under its applicable terms. LocalScout does not receive Google's service-side records. Review Google's <a href="https://ai.google.dev/gemini-api/terms">Gemini API terms</a> and <a href="https://ai.google.dev/gemini-api/docs/logs-policy">data logging guidance</a>, and do not submit information you do not want processed by Google.</p>
+
+  <h2>Google Drive backups</h2>
+  <p>Google Drive backup is optional and requires you to sign in with a Google account and authorize LocalScout. LocalScout requests Google sign-in email/profile access and the restricted-to-the-app <code>drive.appdata</code> area. The app uses the selected account to store and retrieve backups; it does not create a LocalScout account.</p>
+  <p>Before upload, LocalScout encrypts the backup. To allow recovery on another device without asking you for a passphrase, LocalScout also stores a recovery key in the same private Google Drive app-data area as the encrypted backup. Google therefore stores both the encrypted backup and the key needed by LocalScout to restore it. Drive files are associated with the Google account you selected and are handled under Google's terms and privacy policy.</p>
+  <p>Automatic Drive backups are off until you enable them. Local automatic backups are also off until enabled. Drive keeps a limited number of recent backups of each backup type; older backups are removed when a later backup is successfully created. Backup settings provide a control to delete LocalScout's Drive backups and recovery key and disconnect Google Drive access. This does not delete local places or local backups.</p>
+
+  <h2>Maps and geocoding</h2>
+  <p>Map views load map tiles from the provider for the selected map style: OpenFreeMap, OpenStreetMap, or Esri. Those providers receive the network request, including your IP address and the tile area requested by the map. If LocalScout asks the device's platform geocoder to look up a country or address, that platform service may process the coordinates for that lookup.</p>
+
+  <h2>Sharing and importing</h2>
+  <p>You can export or share backup files through Android's system share interface, and import a backup file you select. The destination app or service you choose receives the shared file under its own privacy terms. LocalScout does not upload a local backup unless you choose Google Drive backup.</p>
+
+  <h2>Retention and deletion</h2>
+  <p>Your place data, photos, shopping lists, and preferences remain on your device until you delete them or uninstall/reset the app, subject to Android device backup and transfer settings. LocalScout provides controls to clear saved places, reset app data, and delete its Drive backups and recovery key. A local reset removes local app data and stored AI credentials, but does not remove Google Drive backups or revoke Google access. Google AI and speech-recognition providers control retention of requests they process under their applicable terms and settings.</p>
+  <p>Google Drive backups remain in your Google account until deleted there or removed by LocalScout's backup-retention process. Google AI and speech-recognition providers control retention of requests they process under their applicable terms and settings.</p>
+
+  <h2>Security</h2>
+  <p>LocalScout keeps app data in app-private device storage, stores the AI API key in secure device credential storage, encrypts backup payloads before writing or uploading them, and uses encrypted HTTPS connections for Google AI and Google Drive requests. No method of storage or transmission is completely secure. Because the Drive recovery key is stored alongside the backup, Drive backup encryption should not be considered encryption that prevents Google from accessing the backup contents.</p>
+
+  <h2>Children's privacy</h2>
+  <p>LocalScout is intended for adults aged 18 and older and is not directed to children. The app does not provide an age-verification system. If you believe a child has used LocalScout and submitted personal information to an external service through the app, contact <a href="mailto:it.wrx.inc@proton.me">it.wrx.inc@proton.me</a>. LocalScout has no developer-operated account or server from which to retrieve on-device records; a parent or guardian can clear the app's local data on the device and use the app's controls to delete its Drive backups.</p>
+
+  <h2>Changes and contact</h2>
+  <p>We may update this policy when app features or data practices change. The current version is available at <a href="https://desdenovax.github.io/localscout-privacy/">https://desdenovax.github.io/localscout-privacy/</a>. For privacy questions or requests, contact <a href="mailto:it.wrx.inc@proton.me">it.wrx.inc@proton.me</a>.</p>
+
+  <h2>Third-party privacy information</h2>
+  <ul>
+    <li>Google AI: <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+    <li>Google Drive and Google sign-in: <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+    <li>Map data: <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Privacy Policy</a>; <a href="https://www.esri.com/en-us/privacy/overview">Esri Privacy</a>.</li>
+    <li>Speech recognition and platform geocoding are provided by the device's configured platform/service; the provider depends on the device and its settings.</li>
+  </ul>
+  <footer>LocalScout · IT.WrX inc.</footer>
+</main>
+</body>
+</html>
